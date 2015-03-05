@@ -1,5 +1,4 @@
 # Read data, subset and format columns:
-# Read data, subset and format columns:
 data <- read.table("household_power_consumption.txt", header = TRUE, sep = ";",
                    na.strings = "?")
 useData <- data[data$Date=="1/2/2007" | data$Date=="2/2/2007",] # subsets dates
